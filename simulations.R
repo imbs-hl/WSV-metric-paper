@@ -10,10 +10,10 @@
 ## Define directories
 ## Please define your main directory here. 
 ## This should be the directory you cloned the git repository into.
-main_dir <- "~/"
+main_dir <- "~"
 ## Create and define registry directory
-dir.create(file.path(main_dir, "registires"), showWarnings = FALSE)
-reg_dir <- file.path(main_dir, "registires")
+dir.create(file.path(main_dir, "registries"), showWarnings = FALSE)
+reg_dir <- file.path(main_dir, "registries")
 ## Create and define functions directory
 dir.create(file.path(main_dir, "functions"), showWarnings = FALSE)
 fun_dir <- file.path(main_dir, "functions")
