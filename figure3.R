@@ -19,6 +19,9 @@ out_dir <- file.path(main_dir, "output")
 if (!"pacman" %in% installed.packages()){
   install.packages("pacman")
 }
+if (!"ggplot2" %in% installed.packages()){
+  install.packages("ggplot2")
+}
 
 pacman::p_load(ggplot2)
 pacman::p_load(gridExtra)
